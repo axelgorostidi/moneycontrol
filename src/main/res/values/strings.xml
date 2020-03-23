@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Money Control</string>
+    <string name="txtImporte">($) Importe</string>
+    <string name="btnGrabar">Grabar</string>
+    <string name="etNuevaCat">Nueva Categoría</string>
+    <string name="tvLeyenda">Mantén pulsado en una categoría para borrarla.</string>
+    <string name="mesActual">Mes actual</string>
+    <string name="mesPrevio">Mes previo</string>
+    <string name="btnDetalle">Detallado</string>
+    <string name="txtCategoria">Categoría</string>
+    <string name="txtImporteMaximo">Importe máximo</string>
+    <string name="txtImporteMinimo">Importe mínimo</string>
+    <string name="btnFiltrar">Filtrar</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="etFechaInicial">Fecha inicial</string>
+    <string name="etFechaFinal">Fecha final</string>
+    <string name="etTotalDetalle">Total</string>
+    <string name="toastImporteVacio">Indique un importe</string>
+    <string name="toastGrabado">Grabado correctamente</string>
+    <string name="atencion">Atención</string>
+    <string name="eliminarGasto">¿Desea eliminar el gasto seleccionado?</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminarCategoria">¿Desea eliminar la categoría?</string>
+    <string name="toastCategoriaVacia">Debe indicar una categoría</string>
+
+</resources>

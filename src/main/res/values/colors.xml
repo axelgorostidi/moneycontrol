@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo_dialogo">#E6E6E6</color>
+    <color name="letra_negro">#000000</color>
+    <color name="fondo_amarillo">#E3F37D</color>
+
+    <color name="colorPrimary">#E91E36</color>
+    <color name="colorPrimaryDark">#C00618</color>
+    <color name="colorAccent">#E91E36</color>
+
+</resources>

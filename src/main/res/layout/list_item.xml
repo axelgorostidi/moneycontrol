@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:id="@+id/txtCat_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:textColor="#030000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/txtImporte_list"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtImporte_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:textColor="#E91E36"
+            android:textSize="32dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFecha_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:paddingLeft="7dp"
+            android:textSize="12dp"
+            android:gravity="left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtImporte_list"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCat_list" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
